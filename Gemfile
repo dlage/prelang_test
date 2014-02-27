@@ -43,3 +43,30 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+gem 'bundler'
+
+gem 'bootstrap-sass', github: 'twbs/bootstrap-sass'
+
+gem 'bootstrap-sass-extras'
+
+gem 'devise', github: 'plataformatec/devise'
+
+gem 'omniauth'
+
+gem 'omniauth-facebook'
+
+gem 'delayed_job', github: 'collectiveidea/delayed_job'
+
+gem 'delayed_job_active_record', github: 'collectiveidea/delayed_job_active_record'
+
+gem 'better_errors', group: :development
+
+gem 'binding_of_caller'
+
+gem 'google-analytics-rails'
+
+gem 'rails_config'
+
+gem 'rails_12factor', group: :production
+
+gem 'rails_on_heroku', group: :production
